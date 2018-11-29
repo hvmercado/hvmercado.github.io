@@ -1,0 +1,136 @@
+body{
+	background: #4A6D7F;
+	color: #E6F6FF;
+	font-family: Verdana, Geneva, sans-serif;;
+	margin: 0px;
+	padding: 0px;
+}
+
+header{
+	background-color: #fcfcfc;
+	color:#3F3F3F;	
+	height: 10;
+	margin: 0px;
+	padding: 10px;
+	text-align: center;
+	text-transform: capitalize;
+}
+
+h1 {  
+	vertical-align: middle;
+	font-weight: bold;
+	font-size: 37px;
+	line-height: 42px;
+	text-align; left: 
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+nav {
+	background-color: #B2B2B2;
+	padding: 10px 10px 10px 00px;
+	text-align: right;
+}
+
+nav a, footer a {
+	color: #E6F6FF;
+	text-decoration: none;
+	text-align: right;
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+
+
+h2 {}
+
+footer {
+	clear: both;
+	height: 5%;
+	background-color: #4D4D4D;
+	color:#fefefe;	
+	padding: 1%;
+	text-align : center;
+	font-size: 10px;
+}
+
+#slogan {
+	font-size: 28px;
+	font-weight: normal;
+	line-height: 28px;
+	color: #666;
+	margin: 0px;
+	text-transform: lowercase;
+}
+
+
+#bio{
+	background-color: #E6E6E6;
+	/*background-image: url("/images/IMG_0079.jpg");*/
+	color: #404040;
+	padding: 40px;
+	margin: 0px;
+	min-height: 100%;
+}
+
+#skillset{
+	background-color: #ffffff;
+	color: #666;
+	float: right;
+	width: 49%;
+		height: 400px;
+
+	/*margin: 0%;*/
+	/*padding: 30px;*/
+}
+
+#description{
+	background-color: #ffffff;
+	color: #666;
+	float: left;
+	width: 49%;
+	height: 400px;
+	/*I forgot how much I hate padding and margin*/
+	/*margin: 0%;*/
+	padding-left: 2%;
+
+}
+
+.padd{
+	padding:20px;
+}
+
+.right_postion {
+	float: right;
+	width: 45%;
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+
+}
+
+/*
+p { }
+ul{}
+li{}
+img{}
+*/
+
+
+
+
+/** 
+
+background
+background-color
+color
+font-size
+font-style
+font-weight
+text-align
+text-decoration
+text-transform
+
+**/

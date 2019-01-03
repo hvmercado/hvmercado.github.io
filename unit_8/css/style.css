@@ -180,6 +180,7 @@ footer {
 .portfolio hr {
     width: 90%;
     border-top: 1px solid #7F7F7F;
+    display: inline-block;
 }
 
 /*Skill Set Style*/

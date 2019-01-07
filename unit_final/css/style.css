@@ -157,15 +157,25 @@ footer {
 
 
 /* Portfolio Article sections */
+.portfolio {
+    width: 100%;
+}
+
+.portfolio section {
+    position: relative;
+
+}
 
 .portfolio article {
     /*float: left;*/
     height: 660px;
+    min-height: 300px;
     padding: 0 5%;
     width: 90%;
 }
 
 .portfolio article img {
+    padding: 5% 0;
     width: 100%;
 }
 
@@ -185,10 +195,6 @@ footer {
 }
 
 
-.portfolio section {
-    position: relative;
-
-}
 
 .description {
     background-color: #ffffff;
@@ -203,7 +209,7 @@ footer {
     bottom: 0;
     color: #ffffff;
     position: absolute;
-        width: 100%;
+    width: 100%;
 
 }
 
@@ -236,7 +242,7 @@ footer {
 .tools {
     float: right;
     padding: 0 2%;
-     width: 45%;
+    width: 45%;
 }
 
 
@@ -321,16 +327,15 @@ footer {
 
     .portfolio {
         width: 100%;
-        /*padding: 10px;*/
     }
 
-
     .portfolio article {
-        float: none;
-        width: 100%;
+        min-height: 575px;
+        padding: 0 5%;
     }
 
     .portfolio article img {
+        padding:10% 0;
         width: 100%;
     }
 
@@ -341,13 +346,19 @@ footer {
     }
 
     .description {
-        padding-left: 0;
+        height: 600px;
     }
 
     .blurb {
-        float: none;
-        width: 50%;
+        padding: 0 5%;
+        width: 90%;
     }
+
+    .tools {
+        padding: 0 5%;
+        width: 90%;
+    }
+
 
 }
 
@@ -446,9 +457,8 @@ footer {
     }
 
     #resume article p {
-
-        padding: 0 0 .5em;
         margin: 0;
+        padding: 0 0 .5em;
     }
 
     #resume h1 {

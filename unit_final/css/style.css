@@ -1,0 +1,490 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+
+body {
+    background: #fff;
+    color: #666;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    border: 1px solid black;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.clearfix {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.5em;
+}
+
+h1 {
+    font-weight: 600;
+    line-height: 0;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+h2 {
+    font-weight: 400;
+}
+
+/*Header styles*/
+header {
+    height: 60px;
+    margin: 0px;
+    padding: 40px 0;
+    background-color: #fcfcfc;
+    color: #3F3F3F;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+/*End Header Styles*/
+
+
+/*Navigation Section and Styles*/
+nav {
+    background-color: #000000;
+    height: 40px;
+    padding: 0;
+    position: -webkit-sticky;
+    /* Safari */
+    position: sticky;
+    text-align: center;
+    top: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: -webkit-sticky;
+    /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+nav li {
+    float: left;
+    width: 25%;
+}
+
+nav li a {
+    border-right: 1px solid #bbb;
+    color: #ffffff;
+    display: block;
+    font-weight: 100;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+nav li:last-child a {
+    border-right: none;
+}
+
+nav li a:hover {
+    background-color: #ffffff;
+    color: #000000;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+/*End Navigation Section*/
+footer a {
+    color: #E6F6FF;
+    text-align: center;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #4D4D4D;
+    clear: both;
+    color: #fefefe;
+    font-size: 10px;
+    height: 5%;
+    padding: 1%;
+    text-align: center;
+}
+
+#slogan {
+    color: #666;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 100;
+    line-height: 2em;
+    margin: 0;
+    text-transform: lowercase;
+}
+
+#bio {
+    background-color: #E6E6E6;
+    /*background-image: url("/images/IMG_0079.jpg");*/
+    color: #404040;
+    margin: 0;
+    min-height: 100%;
+    padding: 0 5%;
+    width: 90%;
+}
+
+
+.padd {
+    padding: 20px;
+}
+
+.right_position {
+    float: right;
+    /* clear: both; */
+    padding: 0 30px;
+    width: 5;
+    width: 40%;
+}
+
+.left_position {
+    float: left;
+    margin: 0;
+    width: 49%;
+}
+
+
+/* Portfolio Article sections */
+
+.portfolio article {
+    /*float: left;*/
+    height: 660px;
+    padding: 0 5%;
+    width: 90%;
+}
+
+.portfolio article img {
+    width: 100%;
+}
+
+.portfolio aside {
+    /*    float: right;*/
+    background-color: rgba(0, 0, 0, 0.7);
+    /*    width: 46%;*/
+    bottom: 0;
+    padding: 20px;
+    position: absolute;
+
+}
+
+.portfolio hr {
+    border-top: 1px solid #7F7F7F;
+    width: 90%;
+}
+
+
+.portfolio section {
+    position: relative;
+
+}
+
+.description {
+    background-color: #ffffff;
+    color: #666;
+    padding: 2%;
+    width: 100%;
+}
+
+/*Skill Set Style*/
+.skillset {
+    background-color: rgba(0, 0, 0, 0.7);
+    bottom: 0;
+    color: #ffffff;
+    position: absolute;
+        width: 100%;
+
+}
+
+.skillset ul {
+    list-style: none;
+    padding-left: 1.2em;
+    text-indent: -1.2em;
+}
+
+.skillset li:before {
+    color: #fffff;
+    content: '\2023\A0';
+    display: block;
+    float: left;
+    width: 1.2em;
+}
+
+.skillset li {
+    font-style: italic;
+    font-weight: 300;
+}
+
+
+.blurb {
+    float: left;
+    width: 45%;
+    padding: 0 2%
+}
+
+.tools {
+    float: right;
+    padding: 0 2%;
+     width: 45%;
+}
+
+
+
+/* Resume Styles */
+#resume {
+    margin: 0;
+    padding: 0;
+}
+
+#resume section {
+    margin: 2em 0;
+    padding: 0;
+}
+
+#resume header {
+    border-bottom: 1px #666666 solid;
+    height: 50px;
+    margin: 0;
+    padding: 1em 0;
+}
+
+#resume h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5em;
+    margin: 0;
+}
+
+#resume h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin: .5em 0;
+}
+
+#resume aside {
+    /*display: inline-block;*/
+    float: left;
+    padding: 0 1em;
+}
+
+#resume aside p {
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+}
+
+#resume aside strong {
+    font-weight: 300;
+    font-style: italic;
+}
+
+#resume article {
+    /*    display: inline-block;
+*/
+    float: right;
+    padding: 0 .5em;
+    width: 70%;
+}
+
+#resume article p {
+    margin: 0;
+    /*padding:0 .5em;*/
+}
+
+
+
+
+@media only screen and (max-width: 1024px) {
+
+    .portfolio .hidden {
+        display: none;
+    }
+
+    .portfolio section {
+        float: left;
+        width: 50%;
+    }
+
+    .portfolio {
+        width: 100%;
+        /*padding: 10px;*/
+    }
+
+
+    .portfolio article {
+        float: none;
+        width: 100%;
+    }
+
+    .portfolio article img {
+        width: 100%;
+    }
+
+    .portfolio aside {
+        float: none;
+        padding: 0 20px;
+        width: auto;
+    }
+
+    .description {
+        padding-left: 0;
+    }
+
+    .blurb {
+        float: none;
+        width: 50%;
+    }
+
+}
+
+@media only screen and (max-width: 414px) {
+
+    .portfolio .hidden {
+        display: inline-block;
+    }
+
+    #container {
+        border: none;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    header {
+        background-color: #fcfcfc;
+        color: #3F3F3F;
+        height: 30px;
+        margin: 0;
+        padding: 2em 0 1em 0;
+        text-align: center;
+        text-transform: capitalize;
+    }
+
+    header h1 {
+        font-size: 1.5em;
+        padding: 0;
+        margin: 0;
+    }
+
+    #slogan {
+        color: #666;
+        font-family: 'Open Sans', sans-serif;
+        font-size: .75em;
+        font-style: italic;
+        font-weight: 100;
+
+        line-height: 2.25em;
+        margin: 0px;
+        text-transform: lowercase;
+    }
+
+    hr {
+        width: 80%;
+    }
+
+    .portfolio {
+        width: 100%;
+        /*padding: 10px;*/
+    }
+
+    .portfolio article {
+        float: none;
+        width: 100%;
+    }
+
+    .portfolio article img {
+        width: 100%;
+    }
+
+    .portfolio aside {
+        float: none;
+        padding: 0 20px;
+        width: auto;
+    }
+
+    .portfolio section {
+        float: none;
+        width: 100%;
+    }
+
+    .description {
+        padding-left: 0;
+    }
+
+    #resume section {
+        padding: 0;
+        margin: 1em;
+    }
+
+    #resume article {
+        /*        display: inline-block;*/
+        float: left;
+        padding: 0;
+        width: 100%;
+    }
+
+    #resume aside {
+        /*        display: inline-block;*/
+        float: left;
+        margin-bottom: .5em;
+        padding: 0;
+        width: 100%;
+
+    }
+
+    #resume article p {
+
+        padding: 0 0 .5em;
+        margin: 0;
+    }
+
+    #resume h1 {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 1.5em;
+        margin: 0;
+    }
+
+    #resume aside p {
+        font-size: 18px;
+        font-weight: 300;
+        margin: 0;
+        padding: 0;
+
+
+
+    }
+
+    #resume aside strong {
+        font-size: 18px;
+        font-style: italic;
+        font-weight: 300;
+
+    }
+
+    #bio {
+        margin: 0;
+        min-height: 100%;
+        padding: 5%;
+        width: 90%;
+
+    }
+
+    footer {
+        font-size: 14px;
+    }
+}

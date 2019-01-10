@@ -6,6 +6,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
+    font-size: 40px
 }
 
 #container {
@@ -20,20 +21,25 @@ body {
     display: table;
 }
 
-p {
-    font-size: 18px;
+p,
+li {
+    font-size: .5em;
     font-weight: 300;
     line-height: 1.5em;
 }
 
+
 h1 {
+    font-size: 1.25em;
     font-weight: 600;
     line-height: 0;
     padding-top: 0px;
     padding-bottom: 0px;
 }
 
-h2 {
+h2 {    
+    font-size: .85em;
+
     font-weight: 400;
 }
 
@@ -41,7 +47,7 @@ h2 {
 header {
     height: 60px;
     margin: 0px;
-    padding: 40px 0;
+    padding: 20px 0 46PX; 0
     background-color: #fcfcfc;
     color: #3F3F3F;
     text-align: center;
@@ -74,6 +80,7 @@ nav ul {
 }
 
 nav li {
+    font-size: .4em;
     float: left;
     width: 25%;
 }
@@ -83,7 +90,7 @@ nav li a {
     color: #ffffff;
     display: block;
     font-weight: 100;
-    padding: 10px 20px;
+    padding: 8px 20px;
     text-decoration: none;
 }
 
@@ -121,7 +128,7 @@ footer {
     font-size: 25px;
     font-style: italic;
     font-weight: 100;
-    line-height: 2em;
+    line-height: 3em;
     margin: 0;
     text-transform: lowercase;
 }
@@ -137,23 +144,6 @@ footer {
 }
 
 
-.padd {
-    padding: 20px;
-}
-
-.right_position {
-    float: right;
-    /* clear: both; */
-    padding: 0 30px;
-    width: 5;
-    width: 40%;
-}
-
-.left_position {
-    float: left;
-    margin: 0;
-    width: 49%;
-}
 
 
 /* Portfolio Article sections */
@@ -162,6 +152,11 @@ footer {
 }
 
 .portfolio section {
+    /*    position: relative;
+*/
+}
+
+.portfolio article {
     position: relative;
 
 }
@@ -179,8 +174,6 @@ footer {
     width: 100%;
 }
 
-/*.fullheight {
-}*/
 
 .portfolio aside {
     /*    float: right;*/
@@ -202,7 +195,7 @@ footer {
 .description {
     background-color: #ffffff;
     color: #666;
-    padding: 5%;
+    padding: 0 0 5% 0;
 
 }
 
@@ -216,8 +209,16 @@ footer {
 
 }
 
+.skillset h2 {
+    font-size: .65em;
+    padding: 2% 0 0 0;
+    margin: 0
+}
+
 .skillset ul {
     list-style: none;
+    margin: 3% 0;
+    padding-bottom: 0;
     padding-left: 1.2em;
     text-indent: -1.2em;
 }
@@ -270,7 +271,7 @@ footer {
 
 #resume h1 {
     font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
+    font-size: .55em;
     font-weight: 500;
     line-height: 1.5em;
     margin: 0;
@@ -286,11 +287,11 @@ footer {
 #resume aside {
     /*display: inline-block;*/
     float: left;
-    padding: 0 1em;
+    padding: 0 .5em 0 1em;
 }
 
 #resume aside p {
-    font-size: 16px;
+    font-size: .5em;
     font-weight: 300;
     margin: 0;
     padding: 0;
@@ -302,49 +303,68 @@ footer {
 }
 
 #resume article {
-    /*    display: inline-block;
-*/
+
     float: right;
-    padding: 0 .5em;
+    padding: 0 .25em;
     width: 70%;
 }
 
 #resume article p {
     margin: 0;
-    /*padding:0 .5em;*/
 }
 
 
 #store {
-      background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../images/ibooks_store.png"); 
-      background-repeat: no-repeat;
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../images/ibooks_store.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 
 }
+
 #nab1 {
-      background: -webkit-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../images/nabi-konnect.jpg");
-      background: -o-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../images/nabi-konnect.jpg");
-      background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../images/nabi-konnect.jpg"); 
-      background-repeat: no-repeat;
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../images/nabi-konnect.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 #nab2 {
-      background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../images/nabi-treasure-box.jpg"); 
-      background-repeat: no-repeat;
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../images/nabi-treasure-box.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+#nabtab {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../images/bigtab.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+#eames {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../images/eames_brochure.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 
 }
 
@@ -368,9 +388,7 @@ footer {
         padding: 0;
     }
 
-    .portfolio article .fullheight {
-  
-  }
+    .portfolio article .fullheight {}
 
     .portfolio article img {
         padding: 10% 0;
@@ -384,8 +402,9 @@ footer {
     }
 
     .description {
-/*        height: 600px;
-*/    }
+        /*        height: 600px;
+*/
+    }
 
     .blurb {
         padding: 0 5%;
@@ -396,6 +415,60 @@ footer {
         padding: 0 5%;
         width: 90%;
     }
+
+    #store {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../images/ibooks_store_1024.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+#nab1 {
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../images/nabi-konnect_1024.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#nab2 {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../images/nabi-treasure-box_1024.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+#nabtab {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../images/bigtab_1024.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+#eames {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../images/eames_brochure_1024.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
 }
 
 @media only screen and (max-width: 414px) {
@@ -410,30 +483,41 @@ footer {
         width: 100%;
     }
 
+
+nav li {
+    font-size: .35em;
+
+}
+
+nav li a {
+
+padding: 10px;
+}
+
     header {
         background-color: #fcfcfc;
         color: #3F3F3F;
         height: 30px;
         margin: 0;
-        padding: 2em 0 1em 0;
+        padding: 1em 0 1em 0;
         text-align: center;
         text-transform: capitalize;
     }
 
     header h1 {
-        font-size: 1.5em;
-        padding: 0;
+        font-size: .6em;
+        padding: 0 0 .5em 0;
         margin: 0;
     }
 
     #slogan {
         color: #666;
         font-family: 'Open Sans', sans-serif;
-        font-size: .75em;
+        font-size: .55em;
         font-style: italic;
         font-weight: 100;
 
-        line-height: 2.25em;
+        line-height: 3.25em;
         margin: 0px;
         text-transform: lowercase;
     }
@@ -449,12 +533,11 @@ footer {
 
     .portfolio article {
         float: none;
-/*        width: 100%;
-*/    }
+        /*        width: 100%;
+*/
+    }
 
-    .portfolio article .fullheight {
-  
-  }
+    .portfolio article .fullheight {}
 
     .portfolio article img {
         width: 100%;
@@ -471,6 +554,16 @@ footer {
         width: 100%;
     }
 
+    .tools {
+        display: none;
+    }
+
+.blurb{
+    font-size: .75em;
+}
+.skillset h2{
+    font-size: .6em;
+}
     .description {
         padding-left: 0;
     }
@@ -497,27 +590,27 @@ footer {
     }
 
     #resume article p {
+        font-size: .4em;
         margin: 0;
         padding: 0 0 .5em;
     }
 
     #resume h1 {
         font-family: 'Open Sans', sans-serif;
-        font-size: 24px;
+        font-size: .55em;
         font-weight: 500;
         line-height: 1.5em;
         margin: 0;
     }
 
     #resume aside p {
-        font-size: 18px;
+        font-size: .4em;
         font-weight: 300;
         margin: 0;
         padding: 0;
     }
 
     #resume aside strong {
-        font-size: 18px;
         font-style: italic;
         font-weight: 300;
 
@@ -534,4 +627,58 @@ footer {
     footer {
         font-size: 14px;
     }
+
+    #store {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../images/ibooks_store_414.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+#nab1 {
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../images/nabi-konnect_414.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#nab2 {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../images/nabi-treasure-box_414.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+#nabtab {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../images/bigtab_414.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+#eames {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../images/eames_brochure_414.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
 }

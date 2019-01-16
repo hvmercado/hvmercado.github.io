@@ -306,11 +306,12 @@ footer {
 
     float: right;
     padding: 0 .25em;
-    width: 70%;
+    width: 65%;
 }
 
 #resume article p {
     margin: 0;
+    padding-bottom: .5em;
 }
 
 
@@ -468,6 +469,13 @@ footer {
     -o-background-size: cover;
     background-size: cover;
 
+}
+
+#resume article {
+
+    float: right;
+    padding: 0 .5em;
+    width: 60%;
 }
 }
 

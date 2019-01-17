@@ -306,11 +306,11 @@ footer {
 
     float: right;
     padding: 0 .25em;
-    width: 70%;
 }
 
 #resume article p {
     margin: 0;
+    padding-bottom: .5em;
 }
 
 
@@ -473,7 +473,11 @@ footer {
 #resume article {
 
     float: right;
+<<<<<<< HEAD
     padding: 0 .25em;
+=======
+    padding: 0 .5em;
+>>>>>>> cabe468a6665f77e8933eff3d5cabeda946fda54
     width: 60%;
 }
 }

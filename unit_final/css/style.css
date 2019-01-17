@@ -469,6 +469,13 @@ footer {
     background-size: cover;
 
 }
+
+#resume article {
+
+    float: right;
+    padding: 0 .25em;
+    width: 60%;
+}
 }
 
 @media only screen and (max-width: 414px) {
